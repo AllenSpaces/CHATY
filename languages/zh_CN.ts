@@ -1,4 +1,16 @@
 export const ZHCN = {
-  TabBarChatName: "聊天",
-  TabBarMineName: "我的",
+  AccountTitle: "账户",
+  HomeTitle: "返回",
+  ConfigTitle: "配置",
+  AboutTitle: "关于",
+  HistoryTitle: "历史版本",
+  TabBarChatName: "茶言",
+  TabBarInfoName: "个人中心",
+  TabBarAddressBookName: "通讯录",
+  InfoConfigWallet: "钱包",
+  InfoConfigSetting: "配置",
+  InfoConfigCollect: "收藏",
+  InfoConfigPlugs: "插件",
+  InfoConfigAbout: "关于",
+  UserQrCodeTips: "扫描二维码，添加我为好友叭",
 };

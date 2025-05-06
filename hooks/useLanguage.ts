@@ -1,18 +1,19 @@
 import * as SystemLanguage from "expo-localization";
-import GlobalSetting from "@/system/globalSettings.json";
 import { ENUS, JPJA, ZHCN } from "@/languages";
 
-export function getString() {
+export function getString(globalLanguage?: string) {
   const SystemLocales = SystemLanguage.getLocales();
   const languageCode =
-    GlobalSetting.SystemLanguage || SystemLocales[0].languageRegionCode;
+    globalLanguage && globalLanguage == "default"
+      ? SystemLocales[0].languageCode
+      : globalLanguage;
 
   switch (languageCode) {
-    case "CN":
+    case "cn":
       return ZHCN;
-    case "US":
+    case "us":
       return ENUS;
-    case "JA":
+    case "ja":
       return JPJA;
     default:
       return ZHCN;

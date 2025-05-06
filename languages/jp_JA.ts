@@ -1,4 +1,16 @@
 export const JPJA = {
+  AccountTitle: "アカウント",
+  HomeTitle: "ホーム",
+  ConfigTitle: "設定",
+  AboutTitle: "について",
+  HistoryTitle: "履歴",
   TabBarChatName: "チャット",
-  TabBarMineName: "マイ",
+  TabBarInfoName: "情報",
+  TabBarAddressBookName: "アドレス帳",
+  InfoConfigWallet: "ウォレット",
+  InfoConfigSetting: "設定",
+  InfoConfigPlugs: "プラグイン",
+  InfoConfigCollect: "お気に入り",
+  InfoConfigAbout: "について",
+  UserQrCodeTips: "QRコードをスキャンして、友達になりましょう",
 };

@@ -1,0 +1,52 @@
+[
+  {
+    "title": "0.0.1.Alpha",
+    "data": [
+      {
+        "id": 1001,
+        "version": "0.0.1.Alpha",
+        "createTime": "2025.4.12",
+        "desc": {
+          "title": "个人二维码展示",
+          "detail": "# 个人二维码展示\n## **进入个人中心➡️二维码查看个人二维码**"
+        }
+      },
+      {
+        "id": 1002,
+        "version": "0.0.1.Alpha",
+        "createTime": "2025.4.12",
+        "desc": {
+          "title": "支持扫描二维码",
+          "detail": "# 扫描二维码\n## **扫描其他用户的个人二维码可添加为好友**"
+        }
+      },
+      {
+        "id": 1003,
+        "version": "0.0.1.Alpha",
+        "createTime": "2025.4.12",
+        "desc": {
+          "title": "新增登陆页面",
+          "detail": ""
+        }
+      },
+      {
+        "id": 1004,
+        "version": "0.0.1.Alpha",
+        "createTime": "2025.4.12",
+        "desc": {
+          "title": "支持相册二维码识别",
+          "detail": ""
+        }
+      },
+      {
+        "id": 1005,
+        "version": "0.0.1.Alpha",
+        "createTime": "2025.4.12",
+        "desc": {
+          "title": "钱包/配置UI优化",
+          "detail": ""
+        }
+      }
+    ]
+  }
+]
